@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    display: flex;
+}
+
+.container #menu{
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    /* display: none; */
+    transition: all 1ms;
+}
+
+/*For navigation designing*/
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    /* border: 2px solid red; */
+    padding: 1.2rem;
+    height: 100vh;
+    width: 15vw;
+    background-color: rgb(215, 207, 200);
+    display: none;
+    
+}
+
+#closebtn{
+    position: absolute;
+    margin-left: 10em;
+}
+
+.navigation .logo{
+    font-size: 2rem;
+    font-weight: 200;
+    font-family: 'Oswald', sans-serif;
+}
+
+.navigation ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    /* border: 2px solid red; */
+}
+
+.navigation ul li{
+    list-style: none;
+    padding: 13px;
+}
+
+.navigation ul li a{
+    text-decoration: none;
+    color: black;
+}
+.btns{
+    margin-top: 7px;
+}
+.btn{
+    background-color: rgb(54, 176, 237);
+    padding: 4px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2rem;
+}
+
+.contact {
+    max-width: 60%;
+    max-height: 80%;
+    margin: auto;
+    margin-top: 6rem;
+    box-shadow: 0 0 10px rgb(63, 58, 58);
+    color: rgb(22, 120, 201);
+    padding: 1rem;
+
+}
+
+#heading {
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact #form .row {
+    margin-top: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+
+
+}
+
+label {
+    color: rgb(22, 120, 201);
+}
+
+input {
+    outline: none;
+    font-size: 1.2rem;
+    width: 100%;
+
+}
+
+textarea {
+    outline: none;
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+#btn {
+    border: none;
+    padding: 0.6rem;
+    background-color: rgb(22, 120, 201);
+    border-radius: 8px;
+    color: white;
+}
