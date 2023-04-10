@@ -106,9 +106,15 @@
     padding: 4px;
     font-size: 1.5rem;
 }
+.info .info-box .socialmedia{
+    margin-top: 5px;
+}
+.info .info-box .socialmedia i{
+    font-size: 30px;
+}
 img{
-    height: 60vh;
-    width: 60vh;
+    height: 55vh;
+    width: 55vh;
     margin: 2rem 0;
 }
 
