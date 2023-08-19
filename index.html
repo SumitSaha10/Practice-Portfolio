@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    
+
     <script src="https://kit.fontawesome.com/e511de29be.js" crossorigin="anonymous"></script>
-    
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <title>Portfolio-Website</title>
 </head>
+
 <body>
     <div class="container">
         <span id="menu"><i class="fa-solid fa-bars"></i></span>
@@ -25,15 +27,17 @@
         <div class="info">
             <div class="info-box">
                 <div class="info-about">
-                    <div class="hello">Hello</div>
-                    <div class="name">I am Sumit</div>
+                    <div class="hello">Sumit Saha</div>
+                    <div class="name">I am <span class="auto-text"></span>
+                    </div>
                     <div class="about">Welcome to my portfolio website</div>
                     <div class="btns">
                         <a href="about.html"><button class="btn">About</button></a>
                         <a href="projects.html"><button class="btn">Projects</button></a>
                     </div>
                     <div class="socialmedia">
-                        <a href="https://www.linkedin.com/in/sumit-saha-393169222/"><i class="fa fa-linkedin-square" aria-hidden="true" ></i></a>
+                        <a href="https://www.linkedin.com/in/sumit-saha-393169222/"><i class="fa fa-linkedin-square"
+                                aria-hidden="true"></i></a>
                         <a href="https://github.com/SumitSaha10"><i class="fa fa-github" aria-hidden="true"></i></a>
                     </div>
                 </div>
@@ -43,7 +47,16 @@
             </div>
         </div>
     </div>
+    <script>
+        var typed = new Typed(".auto-text", {
+            strings: ["Promgrammer", "Web Developer", "JavaScript Developer", "Java Developer"],
+            typeSpeed: 150,
+            backSpeed: 150,
+            loop: true
+        })
+    </script>
     <script src="script.js"></script>
-    
+
 </body>
+
 </html>
