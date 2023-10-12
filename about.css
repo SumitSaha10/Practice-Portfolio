@@ -1,17 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Seymour+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Seymour+One&family=Yeon+Sung&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
 }
 
-.container{
+.container {
     display: flex;
 }
 
-.container #menu{
+.container #menu {
     font-size: 1.5rem;
     margin-left: 1rem;
     margin-top: 1rem;
@@ -20,7 +21,7 @@
 }
 
 /*For navigation designing*/
-.navigation{
+.navigation {
     display: flex;
     justify-content: center;
     align-items: baseline;
@@ -30,21 +31,21 @@
     width: 15vw;
     background-color: rgb(215, 207, 200);
     display: none;
-    
+
 }
 
-#closebtn{
+#closebtn {
     position: absolute;
     margin-left: 10em;
 }
 
-.navigation .logo{
+.navigation .logo {
     font-size: 2rem;
     font-weight: 200;
     font-family: 'Oswald', sans-serif;
 }
 
-.navigation ul{
+.navigation ul {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -52,19 +53,21 @@
     /* border: 2px solid red; */
 }
 
-.navigation ul li{
+.navigation ul li {
     list-style: none;
     padding: 13px;
 }
 
-.navigation ul li a{
+.navigation ul li a {
     text-decoration: none;
     color: black;
 }
-.btns{
+
+.btns {
     margin-top: 7px;
 }
-.btn{
+
+.btn {
     background-color: rgb(54, 176, 237);
     padding: 4px;
     border: none;
@@ -73,9 +76,9 @@
 }
 
 
-.main{
+.main {
     height: 100vh;
-    width: 85vw;  
+    width: 85vw;
     /* border: 2px solid blue;      */
     display: flex;
     flex-direction: column;
@@ -83,10 +86,10 @@
     margin-top: 4rem;
     margin: auto;
     padding: 2rem;
-    
+
 }
 
-.content{
+.content {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -96,37 +99,44 @@
 
 }
 
-.info{
+.info {
     margin-top: 4em;
     /* border:2px solid green; */
     width: 50vw;
-    
+
 }
 
-.info p{
+.info p {
     padding: 1rem 0;
 }
 
-.about{
+.about {
     font-family: 'Yeon Sung', cursive;
     padding: 4px;
     font-size: 1.5rem;
+    color: rgb(241, 48, 48);
 }
-.pic{
+
+.pic {
     /* border: 2px solid gray; */
 }
-img{
+
+img {
     height: 60vh;
     width: 60vh;
 }
 
-.progress-bar{}
+.progress-bar {}
 
-.progress{
+.progress {
     padding: 1rem 0;
 }
 
-.progress .showprogress{
+.progress h3 {
+    color: rgb(241, 48, 48);
+}
+
+.progress .showprogress {
     padding: .2rem 0;
     width: 90%;
     height: .4rem;
@@ -136,7 +146,7 @@ img{
 
 }
 
-.progress .showprogress::after{
+.progress .showprogress::after {
     content: "";
     position: absolute;
     top: 0;
@@ -146,41 +156,44 @@ img{
     height: 100%;
 }
 
-.showprogress1::after{
+.showprogress1::after {
     width: 80%;
 }
 
-.showprogress2::after{
+.showprogress2::after {
     width: 90%;
 }
 
-.showprogress3::after{
+.showprogress3::after {
     width: 70%;
 }
 
-.showprogress4::after{
+.showprogress4::after {
     width: 60%;
 }
 
-.showprogress5::after{
+.showprogress5::after {
     width: 50%;
 }
 
-@media (max-width: 480px){
-    h1{
+@media (max-width: 480px) {
+    h1 {
         font-size: 1.2rem;
     }
-    .info .about{
+
+    .info .about {
         font-size: 0.8rem;
     }
-    .info .para{
+
+    .info .para {
         font-size: 0.6rem;
     }
-    h3{
+
+    h3 {
         font-size: 0.7rem;
     }
-    
-    img{
+
+    img {
         display: none;
     }
 }

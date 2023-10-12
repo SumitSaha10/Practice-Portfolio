@@ -8,6 +8,11 @@
     font-family: sans-serif;
 }
 
+body {
+    background-color: black;
+    color: white;
+}
+
 .container {
     display: flex;
 }
@@ -64,15 +69,24 @@
 }
 
 .btns {
-    margin-top: 7px;
+    margin-top: 18px;
 }
 
 .btn {
-    background-color: rgb(54, 176, 237);
+    background-color: black;
+    color: white;
     padding: 4px;
-    border: none;
+    border: 1px solid rgb(54, 176, 237);
     border-radius: 4px;
     font-size: 1.2rem;
+    transition: all 0.5s;
+}
+
+.btn:hover {
+    background-color: rgb(54, 176, 237);
+    box-shadow: 0 0 25px rgb(54, 176, 237);
+    border: none;
+
 }
 
 
@@ -117,11 +131,12 @@
 }
 
 .info .info-box .socialmedia {
-    margin-top: 5px;
+    margin-top: 15px;
 }
 
 .info .info-box .socialmedia a i {
     font-size: 30px;
+    color: rgb(241, 48, 48);
 }
 
 img {

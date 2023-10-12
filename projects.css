@@ -1,17 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Seymour+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Seymour+One&family=Yeon+Sung&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
 }
 
-.container{
+.container {
     display: flex;
 }
 
-.container #menu{
+.container #menu {
     font-size: 1.5rem;
     margin-left: 1rem;
     margin-top: 1rem;
@@ -20,7 +21,7 @@
 }
 
 /*For navigation designing*/
-.navigation{
+.navigation {
     display: flex;
     justify-content: center;
     align-items: baseline;
@@ -30,21 +31,21 @@
     width: 15vw;
     background-color: rgb(215, 207, 200);
     display: none;
-    
+
 }
 
-#closebtn{
+#closebtn {
     position: absolute;
     margin-left: 10em;
 }
 
-.navigation .logo{
+.navigation .logo {
     font-size: 2rem;
     font-weight: 200;
     font-family: 'Oswald', sans-serif;
 }
 
-.navigation ul{
+.navigation ul {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -52,19 +53,21 @@
     /* border: 2px solid red; */
 }
 
-.navigation ul li{
+.navigation ul li {
     list-style: none;
     padding: 13px;
 }
 
-.navigation ul li a{
+.navigation ul li a {
     text-decoration: none;
     color: black;
 }
-.btns{
+
+.btns {
     margin-top: 7px;
 }
-.btn{
+
+.btn {
     background-color: rgb(54, 176, 237);
     padding: 4px;
     border: none;
@@ -72,23 +75,25 @@
     font-size: 1.2rem;
 }
 
-.main{
+.main {
     height: 100vh;
     width: 85vw;
     margin: auto;
 }
-.main .section{
+
+.main .section {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.main .section h1{
+.main .section h1 {
     margin: 2rem 0;
+    color: rgb(241, 48, 48);
 }
 
-.cards{
+.cards {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -96,28 +101,26 @@
     flex-wrap: wrap;
     width: 75vw;
 }
-.card{
+
+.card {
     box-shadow: 0 0 10px rgb(223, 230, 223);
 
 }
 
-.card img{
+.card img {
     width: 220px;
     height: 160px;
 }
 
-.card .title{
+.card .title {
     margin: .7rem 0;
-    
+
 }
 
-.card a{
+.card a {
     text-decoration: none;
     color: white;
     padding: .2rem;
     border-radius: 4px;
-   background-color: rgb(17, 96, 214);
+    background-color: rgb(17, 96, 214);
 }
-
-
-
