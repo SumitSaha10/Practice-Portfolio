@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Seymour+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Seymour+One&family=Yeon+Sung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Oswald:wght@300&family=REM:wght@200&family=Seymour+One&family=Yeon+Sung&family=Young+Serif&display=swap');
 
 * {
     margin: 0;
@@ -80,6 +81,7 @@ body {
     border-radius: 4px;
     font-size: 1.2rem;
     transition: all 0.5s;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .btn:hover {
@@ -112,12 +114,14 @@ body {
 .info-box .info-about .hello {
     font-family: 'Seymour One', sans-serif;
     padding: 4px;
+    font-size: 1.8rem;
 }
 
 .info-box .info-about .name {
 
     padding: 4px;
     font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 .info-box .info-about .name .auto-text {
@@ -127,7 +131,10 @@ body {
 .info-box .info-about .about {
 
     padding: 4px;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
+    color: rgb(245, 245, 0);
+    font-family: 'Josefin Sans', sans-serif;
+
 }
 
 .info .info-box .socialmedia {

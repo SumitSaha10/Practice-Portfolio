@@ -89,6 +89,10 @@
 
 }
 
+.main h1 {
+    color: rgb(241, 48, 48);
+}
+
 .content {
     display: flex;
     justify-content: space-around;
@@ -108,13 +112,14 @@
 
 .info p {
     padding: 1rem 0;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .about {
     font-family: 'Yeon Sung', cursive;
     padding: 4px;
     font-size: 1.5rem;
-    color: rgb(241, 48, 48);
+
 }
 
 .pic {
@@ -133,7 +138,7 @@ img {
 }
 
 .progress h3 {
-    color: rgb(241, 48, 48);
+    color: white
 }
 
 .progress .showprogress {
