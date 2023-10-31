@@ -114,6 +114,8 @@ input {
     outline: none;
     font-size: 1.2rem;
     width: 100%;
+    background-color: black;
+    color: rgb(0, 255, 251);
 
 }
 
@@ -121,6 +123,8 @@ textarea {
     outline: none;
     font-size: 1.2rem;
     width: 100%;
+    background-color: black;
+    color: rgb(0, 255, 251);
 }
 
 #btn {
